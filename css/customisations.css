@@ -1,0 +1,289 @@
+﻿
+.post {
+    position: relative;
+}
+
+.post {
+    font-size: 80%;
+    text-align: justify;
+    text-justify: distribute;
+    word-break: break-word;
+}
+
+.post h1 {
+    display: block;
+    position: relative;
+    text-align: left;
+}
+
+.post h2 {
+    position: relative;
+    text-align: left;
+}
+
+.post h3 {
+    position: relative;
+    text-align: left;
+}
+
+.post:first-child > p:first-of-type::first-letter { 
+    float: left; 
+    color: rgb(106, 159, 181);
+    font-size: 75px; 
+    line-height: 60px; 
+    padding-top: 4px; 
+    padding-right: 8px; 
+    padding-left: 3px; 
+    font-family: Georgia; 
+
+}
+
+.posts {
+  margin-top: -4rem;
+}
+
+.posts-list ul {
+  list-style-type: none;
+}
+
+.post-snippet {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.post-snippet ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.7rem;
+}
+
+.post-snippet li {
+  display: inline;
+  padding: 0;
+}
+
+.post-snippet img {
+  vertical-align: central;
+  display: inline-block;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+@media (min-width: 48em) {
+  .post-snippet img {
+    width: 5rem;
+  }
+}
+
+.post-snippet-text {
+  vertical-align: top;
+  display: inline-block;
+  padding: 0;
+  padding-left: 1rem;
+}
+
+.post-snippet a {
+  text-decoration: none;
+}
+
+.post-snippet h3 {
+  margin: 0;
+  display: block;
+}
+
+.post-tags 
+{
+    display: block;
+}
+
+.post-tags li {
+  color: #fff;
+  background-color: #6a9fb5;
+  margin-right: 0.2rem;
+  margin-top: 0.2rem;
+  padding: 0.2rem;
+  display: inline-block;
+}
+
+.post-more {
+  display: inline-block;
+  position: absolute;
+  right: 1rem;
+}
+@media (min-width: 48em) {
+  .post-more {
+    right: 3rem;
+  }
+}
+
+
+.page-nav {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.page-nav a {
+  display: block;
+  width: 33%;
+  float: left;
+  margin: 1em 0;
+  font-size: 1rem;
+}
+
+.page-nav .home {
+  text-align: center;
+}
+
+.page-nav .next {
+  text-align: right;
+}
+
+.post-share {
+  text-align: right;
+  font-size: 1.5rem;
+  display: block
+}
+
+.post-share a:hover,a:focus {
+  text-decoration: none;
+  color: #808080;
+}
+
+.bubble{
+    background-color: #3392c1;
+    border-radius: 5px;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+    vertical-align: top;
+}
+
+.bubble::before {
+    background-color: #3392c1;
+    content: "\00a0";
+    display: block;
+    height: 1.2rem;
+    position: absolute;
+    transform:             rotate( -45deg ) skew( -20deg, -20deg );
+        -moz-transform:    rotate( -45deg ) skew( -20deg, -20deg );
+        -ms-transform:     rotate( -45deg ) skew( -20deg, -20deg );
+        -o-transform:      rotate( -45deg ) skew( -20deg, -20deg );
+        -webkit-transform: rotate( -45deg ) skew( -20deg, -20deg );
+    width:  1.2rem;
+}
+
+.bottom::before {
+    top: -0.6rem;
+    left: 45%;           
+}
+@media (min-width: 48em) {
+  .bottom::before {
+    left: 0.5rem;
+  }
+}
+
+ol {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 4em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+ol > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+}
+ol > li:before {
+    position: absolute;
+    top: 0;
+    left: -1.33em;
+    width: 1.2em;
+    height: 1.2em;
+     
+    font-size: 1.5em;
+    line-height: 1.2;
+    text-align: center;
+    color: #f5f5f5;
+    border-radius: 50%;
+    background-color: rgb(51, 146, 193);
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+blockquote {
+    border-left: 12px solid #dc0;
+    background-color: #ffa;
+    padding: 12px 12px 12px 0;
+    padding-left: 1rem;
+
+}
+
+.highlight {
+    overflow-x: auto;
+    margin: 0.5rem;
+    display: block;
+}
+
+.highlight pre {
+    font-size: 0.7rem;
+    line-break: auto;
+    white-space: pre;
+    display: inline-block;
+    width: auto;
+    tab-size: 2;
+    -moz-tab-size: 2;
+    -o-tab-size: 2;
+}
+
+#markdown-toc {
+    padding: 2rem;
+    position: relative;
+    text-align: left;
+}
+
+#markdown-toc ul {
+    list-style-type: square;
+}
+
+#markdown-toc::before {
+    content: "Contents";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    position: relative;
+    margin-left: -2.5rem;
+} 
+
+.post img {
+    display: block;
+    margin: auto;
+}
+
+em#caption {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.post_header img {
+  vertical-align: central;
+  display: block;
+  width: 3rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+@media (min-width: 48em) {
+  .post_header img {
+    width: 5rem;
+  }
+}

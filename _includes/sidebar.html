@@ -1,0 +1,32 @@
+<div class="sidebar clearfix">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.data.sidebar.title }}
+        </a>
+      </h1>
+      <h3>{{ site.tagline }}</h3>
+      <hr />
+      <img class="sidebar-profile" src="{{ site.data.sidebar.profile_pic | prepend: site.baserul }}" alt="">
+    </div>
+
+    <div>
+
+      <div class="bubble bottom"><p class="lead sidebar-descr">{{ site.data.sidebar.description }}</p></div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="{{ site.data.sidebar.twitter }}">
+          <i class="fa fa-twitter"></i>
+      </a>
+      <a class="sidebar-nav-item" href="{{ site.data.sidebar.linkedin }}">
+          <i class="fa fa-linkedin"></i>
+      </a>
+      <a class="sidebar-nav-item" href="{{ site.data.sidebar.github }}">
+          <i class="fa fa-github-alt"></i>
+      </a>
+    </nav>
+    </div>
+
+  </div>
+</div>

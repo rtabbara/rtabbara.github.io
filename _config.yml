@@ -1,0 +1,10 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            Ramroumi
+twitter_username:  rami__tabbara
+tagline:          'Personal blog of Rami Tabbara'
+url:              http://www.ramroumi.com
+baseurl:          /

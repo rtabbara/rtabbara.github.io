@@ -1,0 +1,27 @@
+﻿<div class="post-snippet">
+    <a href="{{ post.url }}">
+    <img src="{{ post.preview }}" />
+    </a>
+    <div class="post-snippet-text">
+    <span class="post-meta">{{ include.param.date | date: "%b %-d, %Y" }}</span>
+    <ul class="post-tags">
+        {% for category in include.param.categories %}
+        <li>
+        <span class="label label-success">
+            <i class="fa fa-tag"></i>
+            {{ category }}
+        </span>
+        </li>
+        {% endfor %}
+      </ul>
+     </div>
+     <div class="post-more">
+       <a href="{{ post.url }}">
+       <i class="fa fa-chevron-right"></i>
+       </a>
+     </div>
+     <a href="{{ post.url }}">
+     <h3>{{ include.param.title }}</h3>
+     </a>
+     <p>{{ include.param.blurb }}</p>
+</div>

@@ -546,7 +546,7 @@ I hope you enjoyed this guide and that I've convinced you that, at the very leas
 there are better alternatives to the standard CPU update-GPU render approach when designing a 
 particle system.
 
-The sample project demonstrating my funky galaxy system can be found [here](TBA), and if you  have any 
+The sample project demonstrating my funky galaxy system can be found [here](https://github.com/rtabbara/FastParticlesMG), and if you  have any 
 feedback or suggestions please let me know down in the comments. Thanks!
 
 

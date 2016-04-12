@@ -2,7 +2,7 @@
 layout: post
 title:  "A fast and easy particle system using GPU instancing"
 date:   2016-04-11 17:43:45 +1100
-categories: graphics c# monogame
+categories: graphics monogame
 blurb: "Render a chaotic galaxy using a single quad!"
 preview: /images/posts/particle_preview.png
 twitter_blurb: "Use #MonoGame to render a chaotic galaxy using a single quad!"

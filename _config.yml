@@ -8,3 +8,4 @@ twitter_username:  rami__tabbara
 tagline:          'Personal blog of Rami Tabbara'
 url:              http://www.ramroumi.com
 baseurl:          /
+repository:       rtabbara/rtabbara.github.io

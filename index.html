@@ -1,8 +1,22 @@
 ---
-layout: default
-title: Home
+layout: full-width
+title: Blog
 ---
 
-<div class="posts">
-    {% include posts_list.html %}
-</div>
+  <h1 class="content-listing-header sans">Posts</h1>
+  <ul class="content-listing ">
+    {% for post in site.posts %}      
+        <li class="listing">
+          <hr class="slender">
+          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
+          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
+          <div>{{ post.blurb }}</div> 
+        </li>
+    {% endfor %}
+  </ul>
+
+{% highlight lua %}
+    function main() {
+      // TODO: Write posts
+    }
+{% endhighlight %}

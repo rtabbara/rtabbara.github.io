@@ -1,11 +1,11 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+baseurl:
+title: ramroumi
+author: Rami Tabbara
+description: Personal blog of Rami Tabbara
+name: tufte
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /articles/:short_year/:title
+excerpt_separator: <!--more-->
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 
-# Setup
-title:            Ramroumi
-twitter_username:  rami__tabbara
-tagline:          'Personal blog of Rami Tabbara'
-url:              http://www.ramroumi.com
-baseurl:          /
-repository:       rtabbara/rtabbara.github.io

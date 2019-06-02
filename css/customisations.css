@@ -4,7 +4,7 @@
 }
 
 .post {
-    font-size: 80%;
+    font-size: 100%;
     text-align: justify;
     text-justify: distribute;
     word-break: break-word;
@@ -272,7 +272,6 @@ em#caption {
     margin: 0 auto;
     text-align: center;
 }
-
 
 .post_header img {
   vertical-align: central;

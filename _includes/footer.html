@@ -1,0 +1,10 @@
+<footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    {% for entry in site.data.social %}
+      <li>
+        <a href="{{ entry.link }}"><i class="{{ entry.icon }}"></i></a>
+      </li>
+    {% endfor %}  
+  </ul>
+</footer>

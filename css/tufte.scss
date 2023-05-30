@@ -211,8 +211,13 @@ section { padding-top: 1rem;
 
 ul,ol { width: 45%;
      -webkit-padding-start: 5%;
-     -webkit-padding-end: 5%;
-     list-style-type: none; }
+     -webkit-padding-end: 5%; }
+
+
+li 
+{
+  margin-top: 0.4rem
+}
 
 //li { padding: 0.5em 0; } //vertical padding on list items screws up vertical rhythym
 
@@ -412,6 +417,7 @@ h1.content-listing-header{
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 1.8rem;
+  margin-top:2rem;
 }
 
 li.listing hr{
@@ -519,6 +525,10 @@ hr.slender {
     }
 }
 
+div
+{
+  margin-bottom: 4rem;
+}
 
 /* --- Icomoon icon fonts CSS --*/
 @font-face {

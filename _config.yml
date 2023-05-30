@@ -1,7 +1,7 @@
 baseurl:
-title: ramroumi
+title: Personal site of Rami Tabbara
 author: Rami Tabbara
-description: Personal blog of Rami Tabbara
+description: Personal site of Rami Tabbara
 name: tufte
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
